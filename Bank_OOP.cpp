@@ -18,7 +18,7 @@ private:
 
     string firstName;
     string lastName;
-    int age;
+    unsigned short age;//Без отрицательных значений 
     string bankAcc;
     double balance = 0;
     int id;
