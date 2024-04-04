@@ -180,7 +180,7 @@ int main()
     Client* cl3 = new Client(firstNameArr[random(0, 9)], lastNameArr[random(0, 9)], random(18, 70));
     cl3->showInfo();*/
 
-    Bank* bank = new Bank("Union bank 52");
+    Bank* bank = new Bank("Union bank 554");
 
     bank->createClient(firstNameArr[random(0, 9)], lastNameArr[random(0, 9)], random(18, 70));
     bank->createClient(firstNameArr[random(0, 9)], lastNameArr[random(0, 9)], random(18, 70));
